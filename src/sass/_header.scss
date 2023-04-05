@@ -22,15 +22,16 @@
 
 
 .section-header{
+    position: sticky;
     background-color: rgba(132, 161, 120, 1);
 }
 
 .container-header{
+    
     display: flex;
     justify-content: space-between;
     position: relative;
 }
-
 
 
 

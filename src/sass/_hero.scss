@@ -47,6 +47,22 @@
 
   @media screen and (min-width:768px){
 bottom: 12px;
+
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
   }
 
   @media screen and (min-width:1200px){
@@ -54,6 +70,7 @@ width: 225px;
 bottom: 65px;
 
   }
+
 }
 
 .hero-container {
